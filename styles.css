@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+
+#options {
+  display: flex;
+  gap: 25px;
+
+  justify-content: center;
+}
+
+.game-option {
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.game-option.active {
+  background-color: red;
+}
+
+.game {
+  display: none;
+}
+
+.game.active {
+  display: block;
+}
+
+/* coin toss stuff */
+
+#coin-toss button {
+  padding: 5px;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+/* random number stuff */
+
+.tooBig {
+  background-color: pink;
+  color: blue;
+}
+
+.tooSmall {
+  background-color: lightblue;
+  color: blue;
+}
+
+.tooMany {
+  background-color: red;
+  color: black;
+}
+
+.justRight {
+  background-color: lightgreen;
+  color: green;
+}
